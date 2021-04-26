@@ -1,5 +1,3 @@
-package session1.ChiSoCanNang;
-
 import java.util.Scanner;
 
 public class BMI {

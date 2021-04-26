@@ -1,5 +1,3 @@
-package session1.KiemTraNamNhuan;
-
 import java.util.Scanner;
 
 public class KiemTraNamNhuan {

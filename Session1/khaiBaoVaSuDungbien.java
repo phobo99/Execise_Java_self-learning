@@ -1,5 +1,3 @@
-package session1;
-
 public class khaiBaoVaSuDungbien {
     public  static void main(String[] args){
         int i = 10;

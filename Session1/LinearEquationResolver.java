@@ -1,5 +1,3 @@
-package session1.TH3;
-
 import java.util.Scanner;
 
 public class LinearEquationResolver {

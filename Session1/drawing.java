@@ -1,5 +1,3 @@
-package session1.draw;
-
 import java.util.Scanner;
 
 public class drawing {

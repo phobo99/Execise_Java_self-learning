@@ -1,5 +1,3 @@
-package session1.SoNguyenTo;
-
 public class SoNguyenTo {
     public static void main(String[] args) {
         int dem = 3;

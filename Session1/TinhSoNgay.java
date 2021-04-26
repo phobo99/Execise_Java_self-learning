@@ -1,5 +1,3 @@
-package session1.TinhsoNgay;
-
 import java.util.Scanner;
 
 public class TinhSoNgay {

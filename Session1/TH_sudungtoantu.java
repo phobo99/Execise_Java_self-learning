@@ -1,5 +1,3 @@
-package session1.TH2;
-
 import java.util.Scanner;
 
 public class TH_sudungtoantu {

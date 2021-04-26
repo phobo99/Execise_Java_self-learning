@@ -1,5 +1,3 @@
-package session1.UCLN;
-
 import java.util.Scanner;
 
 public class ucln {

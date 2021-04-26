@@ -1,5 +1,3 @@
-package session1.HienThiLoiChao;
-
 import java.util.Scanner;
 
 public class showName {

@@ -1,5 +1,3 @@
-package session1.kiemtrasonguyento;
-
 import java.util.Scanner;
 
 public class number {
