@@ -1,5 +1,3 @@
-package Point;
-
 public class MoveablePoint extends Point {
     private float xSpeed;
     private float ySpeed;
@@ -17,7 +15,7 @@ public class MoveablePoint extends Point {
     }
 
     public MoveablePoint(float x, float y, float xSpeed, float ySpeed) {
-        super(x,y);
+        super(x, y);
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
     }
@@ -54,8 +52,8 @@ public class MoveablePoint extends Point {
     }
 
     public MoveablePoint move() {
-        setX(getX()+getxSpeed());
-        setY(getY()+getySpeed());
+        setX(getX() + getxSpeed());
+        setY(getY() + getySpeed());
         return this;
     }
 }
