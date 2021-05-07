@@ -1,11 +1,8 @@
-public class Shape {
-    private String color = "green";
-    private boolean filled = true;
-
-    public Shape() {
-    }
-
-    public Shape(String color, boolean filled) {
+package Shape;
+public abstract class Shape{
+    private  String color = "black";
+    private boolean filled = false;
+    public void setShape(String color, boolean filled) {
         this.color = color;
         this.filled = filled;
     }
@@ -32,5 +29,14 @@ public class Shape {
                 + getColor()
                 + " and "
                 + (isFilled() ? "filled" : "not filled");
+    }
+
+    public static void printShape(Shape[] shape) {
+        for (Shape x : shape) {
+            System.out.println(x.toString());
+        }
+    }
+    public static boolean isColorable(Shape shape){
+        return Colorable.class.isInstance(shape);
     }
 }
